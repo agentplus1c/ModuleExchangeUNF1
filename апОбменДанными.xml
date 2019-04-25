@@ -23,7 +23,7 @@
 					<v8:content>Агент Плюс: Обмін даними з мобільними пристроями</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>Обмен данными с мобильными устройствами (ver 2.0.1.4 - не убирать!) </Comment>
+			<Comment>Обмен данными с мобильными устройствами (ver 2.0.1.5 - не убирать!) </Comment>
 			<DefaultForm>ExternalDataProcessor.апОбменДанными.Form.ГлавнаяФорма</DefaultForm>
 			<AuxiliaryForm/>
 		</Properties>
@@ -470,11 +470,7 @@
 					</Synonym>
 					<Comment>Выбранный торговый агент (пользователь мобильного устройства)</Comment>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
